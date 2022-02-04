@@ -1,0 +1,560 @@
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'roboto', sans-serif;
+ }
+ .header {
+                min-height: 150vh;
+                width: 100%;
+                height: auto;
+                background-image: url(images/44.jpg);
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                padding-left: 5%;
+                padding-right: 5%;
+}
+.navbar{
+    height: 27%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius:50%;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: rgb(68, 22, 5);
+    font-weight: 900;
+    color:rgb(68, 32, 5);
+    font-size: 15;
+    background-color: white;
+    border-radius: 10%;
+    font-family: oldtown, fantasy;
+}
+.mi{
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.col h1{
+    color: whitesmoke;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: oldtown, fantasy;
+}
+.col h2{
+    color: whitesmoke;
+    font-size: 40px;
+    line-height: 10px ;
+    margin-bottom: 50px;
+    font-family: oldtown, fantasy;
+}
+.col p{
+    color:whitesmoke;
+    font-size: 20px;
+    line-height: 15px;
+    font-family: oldtown, fantasy;
+}
+.pewpew{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 45px;
+    background-position: right;
+    background-size: cover;
+    margin-right: 20px;
+}
+h4{
+    font-family: oldtown, fantasy;
+    color:whitesmoke;
+
+}
+.p1{
+    background-image: url(https://apicms.thestar.com.my/uploads/images/2021/07/06/1210931.jpeg);
+}
+.p2{
+    background-image: url(https://pbs.twimg.com/media/EoVALBVWMAA2AkH.jpg);
+}
+.p3{
+    background-image: url(https://assets3.thrillist.com/v1/image/1695982/828x610/flatten;crop;jpeg_quality=70);
+}
+.p4{
+    background-image: url(https://www.cognac1719.com/wp-content/uploads/2016/06/1719_XO_1965.jpg);
+}
+
+.ngao{
+    text-align: left;
+    font-family: oldtown, fantasy;
+}
+.ngao p{
+    color:white;
+}
+.head{
+    min-height: 150vh;
+                width: 100%;
+                height: auto;
+                background-image: url(images/44\ 2.jpg);
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                padding-left: 5%;
+                padding-right: 5%;
+}
+.head1{
+    height: 27%;
+    display: flex;
+    text-align: left;
+    margin-left: 15px;
+    padding: 25px;
+}
+.head1 p{
+    font-family: oldtown, fantasy;
+    background-color: white;
+    border-radius: 10%;
+}
+.begin{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background-image: url(images/helo6.jpeg);
+    transition: 0.3s;
+}
+.b1 h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.b1 p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.b1:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+.ngao0{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.ngao0 p{
+    font-family: oldtown, fantasy;
+}
+
+.head11{
+    min-height: 150vh;
+                width: 100%;
+                height: auto;
+                background-image: url(images/44\ 3.jpg);
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                padding-left: 5%;
+                padding-right: 5%;
+}
+.head12{
+    height: 27%;
+    display: flex;
+    text-align: left;
+    margin-left: 15px;
+    padding: 25px;
+}
+.head12 p{
+    font-family: oldtown, fantasy;
+    background-color: white;
+    border-radius: 10%;
+}
+.haiz{
+    margin-top: 3%;
+    display: flex;
+}
+.haiz h2{
+    font-family: oldtown, fantasy;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border-radius: 10%;
+}
+.omg{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.omg1{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.omg1 img{
+    max-width:100%;
+    border-radius: 10%;
+}
+.omg1 h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.omg1 p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.omg1 button{
+    outline: none;
+    padding: 20px 12px;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+.omg1:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+.omg2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.omg2 img{
+    max-width:100%;
+    border-radius: 10%;
+}
+.omg2 h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.omg2 p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.omg2 button{
+    outline: none;
+    padding: 20px 12px;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+.omg2:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+.omg3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.omg3 img{
+    max-width:100%;
+    border-radius: 10%;
+}
+.omg3 h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.omg3 p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.omg3 button{
+    outline: none;
+    padding: 20px 12px;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+.omg3:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+#more{
+    display: none;
+}
+.mi{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.mii{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.mii img{
+    max-width:100%;
+    border-radius: 10%;
+}
+.mii h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.mii p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.mii button{
+    outline: none;
+    padding: 20px 12px;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+.mii:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+.miii{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.miii img{
+    max-width:100%;
+    border-radius: 10%;
+}
+.miii h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.miii p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.miii button{
+    outline: none;
+    padding: 20px 12px;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+.miii:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+.miiii{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.miiii img{
+    max-width:100%;
+    border-radius: 10%;
+}
+.miiii h3{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 5%;
+    color:rgb(68, 32, 5);
+}
+.miiii p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:rgb(68, 32, 5);
+}
+.miiii button{
+    outline: none;
+    padding: 20px 12px;
+    font-weight: bolder;
+    border-radius: 40%;
+}
+.miiii:hover{
+    box-shadow: 0 0 20px 0px rgb(243, 241, 240);
+}
+#more{
+    display: none;
+}
+.he{
+    text-align: center;
+}
+.he h2{
+    font-family: oldtown, fantasy;
+    font-size: 35px;
+    font-weight: 800;
+}
+.hix{
+    min-height: 150vh;
+                width: 100%;
+                height: auto;
+                background-image: url(images/44\ 3.jpg);
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                padding-left: 5%;
+                padding-right: 5%;
+}
+.ngao00{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.ngao00 p{
+    font-family: oldtown, fantasy;
+}
+.had{
+    min-height: 150vh;
+                width: 100%;
+                height: auto;
+                background-image: url(images/8.jpeg);
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                padding-left: 5%;
+                padding-right: 5%;
+}
+.had1{
+    height: 27%;
+    display: flex;
+    text-align: left;
+    margin-left: 15px;
+    padding: 25px;
+}
+.had1 p{
+    font-family: oldtown, fantasy;
+    background-color: white;
+    border-radius: 10%;
+}
+.no{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.no0 img{
+    border-radius: 10%;
+    max-width:70%;
+}
+.no1{
+    list-style: none;
+    margin-right: 20px;
+    padding: 20px 20px;
+}
+.no1 p{
+    font-family: oldtown, fantasy;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: whitesmoke;
+    border-radius: 10%;
+}
+.no2{
+    background-position: center;
+}
+.no2 h2{
+    font-family: oldtown, fantasy;
+    font-size: 30px;
+    color:white;
+}
+.no2 p{
+    font-family: oldtown, fantasy;
+    font-size: 20px;
+    color: white;
+}
+.item{
+    padding: 10px;
+}
+.btn{
+    outline: none;
+    display: block;
+    border:0;
+    font-size: 20px;
+    padding:16px 30px;
+    background:white;
+    color:rgb(68, 22, 5);
+    cursor:pointer;
+    text-align-last: center;
+}
+.nga{
+    text-align: center;
+    font-family: oldtown, fantasy;
+}
+.ngao p{
+    color:white;
+}
